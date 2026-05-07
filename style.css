@@ -6,7 +6,7 @@ body {
 
     background:
         linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url('stone.png');
+        url('./stone.png');
 
     background-size: cover;
     background-position: center;
@@ -16,52 +16,54 @@ body {
     color: #f1f1f1;
 }
 
-/* LANDING PAGE */
+/* HOME PAGE */
 
 .center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     height: 100vh;
     text-align: center;
 }
 
 h1 {
-    font-size: 50px;
-    letter-spacing: 18px;
+    font-size: 55px;
+    letter-spacing: 12px;
     font-weight: 400;
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    letter-spacing: 6px;
-    font-size: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .divider {
     width: 140px;
     height: 1px;
     background: rgba(255,255,255,0.25);
+
     margin-bottom: 50px;
     position: relative;
 }
 
 .divider::after {
     content: "";
+
     width: 8px;
     height: 8px;
+
     background: #f1f1f1;
+
     position: absolute;
+
     left: 50%;
     top: -3px;
+
     transform: translateX(-50%) rotate(45deg);
 }
 
 button {
     background: rgba(20,20,20,0.85);
     color: white;
+
     border: 1px solid rgba(255,255,255,0.15);
 
     padding: 18px 60px;
@@ -76,8 +78,6 @@ button {
     box-shadow: 0 8px 25px rgba(0,0,0,0.45);
 
     transition: 0.3s ease;
-
-    backdrop-filter: blur(3px);
 }
 
 button:hover {
@@ -89,35 +89,47 @@ button:hover {
 
 .names-container {
     max-width: 850px;
+
     margin: auto;
+
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .names-title {
     text-align: center;
+
     font-size: 52px;
     letter-spacing: 8px;
+
     margin-bottom: 15px;
 }
 
 .names-divider {
     width: 200px;
     height: 1px;
+
     background: rgba(255,255,255,0.25);
+
     margin: auto;
     margin-bottom: 60px;
+
     position: relative;
 }
 
 .names-divider::after {
     content: "";
+
     width: 8px;
     height: 8px;
+
     background: #f1f1f1;
+
     position: absolute;
+
     left: 50%;
     top: -3px;
+
     transform: translateX(-50%) rotate(45deg);
 }
 
@@ -156,4 +168,29 @@ button:hover {
 .arrow {
     font-size: 34px;
     opacity: 0.5;
+}
+
+/* VIDEO PAGE */
+
+.video-body {
+    margin: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-wrapper iframe {
+    width: 85vw;
+    height: 48vw;
+
+    max-width: 1500px;
+    max-height: 840px;
+
+    border: none;
+
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 }
