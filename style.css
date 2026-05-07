@@ -88,7 +88,7 @@ button:hover {
 /* NAMES PAGE */
 
 .names-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 
     padding-top: 40px;
@@ -111,7 +111,7 @@ button:hover {
     background: rgba(255,255,255,0.25);
 
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 
     position: relative;
 }
@@ -137,7 +137,7 @@ button:hover {
 
     grid-template-columns: 1fr 1fr;
 
-    gap: 0 60px;
+    column-gap: 80px;
 }
 
 .person {
@@ -145,7 +145,7 @@ button:hover {
     align-items: center;
     justify-content: space-between;
 
-    padding: 16px 5px;
+    padding: 14px 5px;
 
     border-bottom: 1px solid rgba(255,255,255,0.10);
 
@@ -158,14 +158,6 @@ button:hover {
 .person:hover {
     padding-left: 10px;
     background: rgba(255,255,255,0.03);
-}
-
-.person-number {
-    width: 40px;
-
-    font-size: 16px;
-
-    opacity: 0.6;
 }
 
 .person-name {
