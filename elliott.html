@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Elliott</title>
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap');
+
+    body {
+      margin: 0;
+
+      width: 100%;
+      min-height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url('./stone.png');
+
+      background-size: cover;
+      background-position: center;
+
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    iframe {
+      width: 85vw;
+      height: 48vw;
+
+      max-width: 1500px;
+      max-height: 840px;
+
+      border: none;
+
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .home-button {
+        margin-top: 22px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-button a {
+        text-decoration: none;
+        color: white;
+
+        font-size: 20px;
+        letter-spacing: 3px;
+
+        padding: 12px 34px;
+
+        border: 1px solid rgba(255,255,255,0.15);
+
+        background: rgba(20,20,20,0.75);
+
+        transition: 0.25s ease;
+    }
+
+    .home-button a:hover {
+        background: rgba(255,255,255,0.08);
+        transform: translateY(-2px);
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<iframe
+src="https://player.vimeo.com/video/VIDEOIDHERE"
+allow="autoplay; fullscreen; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+<div class="home-button">
+  <a href="names.html">HOME</a>
+</div>
+
+</body>
+</html>
