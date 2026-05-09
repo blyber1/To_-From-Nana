@@ -88,7 +88,7 @@ button:hover {
 /* NAMES PAGE */
 
 .names-container {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
 
     padding-top: 40px;
@@ -131,6 +131,31 @@ button:hover {
 
     transform: translateX(-50%) rotate(45deg);
 }
+
+/* FEATURED VIDEO */
+
+.featured-video {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.featured-video iframe {
+    width: 1000px;
+    height: 560px;
+
+    max-width: 92vw;
+
+    border: none;
+
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* NAMES GRID */
 
 .names-grid {
     display: grid;
