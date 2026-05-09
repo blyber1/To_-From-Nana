@@ -41,6 +41,37 @@
       box-shadow: 0 20px 60px rgba(0,0,0,0.5);
     }
 
+    .home-button {
+        margin-top: 22px;
+        margin-bottom: 10px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-button a {
+        text-decoration: none;
+        color: white;
+
+        font-size: 20px;
+        letter-spacing: 3px;
+
+        padding: 14px 40px;
+
+        border: 1px solid rgba(255,255,255,0.15);
+
+        background: rgba(20,20,20,0.75);
+
+        transition: 0.25s ease;
+
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .home-button a:hover {
+        background: rgba(255,255,255,0.08);
+        transform: translateY(-2px);
+    }
+
     .nav-buttons {
       width: 85vw;
       max-width: 1500px;
@@ -49,13 +80,14 @@
       justify-content: space-between;
 
       margin-top: 25px;
+      margin-bottom: 40px;
     }
 
     .nav-buttons a {
       text-decoration: none;
       color: white;
 
-      font-size: 22px;
+      font-size: 20px;
       letter-spacing: 2px;
 
       padding: 14px 24px;
@@ -83,6 +115,10 @@ src="https://player.vimeo.com/video/1190685010"
 allow="autoplay; fullscreen; picture-in-picture"
 allowfullscreen>
 </iframe>
+
+<div class="home-button">
+  <a href="names.html">HOME</a>
+</div>
 
 <div class="nav-buttons">
 
